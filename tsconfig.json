@@ -15,6 +15,12 @@
     "jsx": "preserve",
     "incremental": true,
     "baseUrl": ".",
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "declaration": true,
+    "noFallthroughCasesInSwitch": true,
+    "pretty": true,
+    "sourceMap": true,
     "paths": {
       "@/*": ["./src/*"]
     }
