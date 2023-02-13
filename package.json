@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "huksy install"
+    "prepare": "husky install"
   },
   "dependencies": {
     "@next/font": "13.1.6",
@@ -29,7 +29,8 @@
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.2",
-    "prettier": "^2.8.4"
+    "prettier": "^2.8.4",
+    "sass": "^1.58.0"
   },
   "engines": {
     "node": ">=16.0.0"
